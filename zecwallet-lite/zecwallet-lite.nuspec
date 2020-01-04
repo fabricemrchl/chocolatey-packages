@@ -15,7 +15,7 @@
     <projectSourceUrl>https://github.com/adityapk00/zecwallet-lite</projectSourceUrl>
     <tags>zecwallet-lite zcash wallet</tags>
     <summary>Zecwallet-Lite is z-Addr first, Sapling compatible lightwallet client for Zcash.</summary>
-    <description>It has full support for all Zcash features:
+    <description>Zecwallet-Lite is z-Addr first, Sapling compatible lightwallet client for Zcash. It has full support for all Zcash features:
     * Send + Receive fully shielded transactions
     * Supports transparent addresses and transactions
     * Full support for incoming and outgoing memos
