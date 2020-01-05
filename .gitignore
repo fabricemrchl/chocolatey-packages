@@ -2,6 +2,8 @@
 *.bak
 *.cache
 *.nupkg
+*.msi
+*.exe
 *.old
 *.orig
 *.swp

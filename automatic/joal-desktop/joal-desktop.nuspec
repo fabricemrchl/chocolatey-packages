@@ -3,12 +3,11 @@
   <metadata>
     <id>joal-desktop</id>
     <version>2.0.1</version>
-    <packageSourceUrl>https://github.com/LeBleu89/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/fabricemrchl/chocolatey-packages</packageSourceUrl>
     <owners>Le_Bleu</owners>
     <title>joal-desktop</title>
     <authors>Anthony Raymond</authors>
     <projectUrl>https://github.com/anthonyraymond/joal-desktop</projectUrl>
-    <projectSourceUrl>https://github.com/anthonyraymond/joal-desktop</projectSourceUrl>
     <iconUrl>https://raw.githubusercontent.com/anthonyraymond/joal-desktop/v2.0.1/resources/icon.png</iconUrl>
     <licenseUrl>https://github.com/anthonyraymond/joal-desktop/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -21,7 +20,7 @@
     JOAL
     This is a desktop app wrapper for joal (An open source command line RatioMaster ).
     </description>
-    
+    <releaseNotes>https://github.com/anthonyraymond/joal-desktop/releases</releaseNotes>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

@@ -3,11 +3,11 @@
   <metadata>
     <id>zecwallet-lite</id>
     <version>1.0.3</version>
-    <packageSourceUrl>https://github.com/LeBleu89/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/fabricemrchl/chocolatey-packages</packageSourceUrl>
     <owners>Le_Bleu</owners>
     <title>zecwallet-lite (Install)</title>
     <authors>Aditya Kulkarni</authors>
-    <projectUrl>https://github.com/adityapk00/zecwallet-lite</projectUrl>
+    <projectUrl>https://www.zecwallet.co/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/adityapk00/zecwallet-lite/v1.0.3/res/icon.ico</iconUrl>
     <copyright>Copyright 2018 adityapk</copyright>
     <licenseUrl>https://github.com/adityapk00/zecwallet-lite/blob/master/LICENSE</licenseUrl>
