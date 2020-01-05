@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>joal-desktop</id>
+    <version>2.0.1</version>
+    <packageSourceUrl>https://github.com/LeBleu89/chocolatey-packages</packageSourceUrl>
+    <owners>Le_Bleu</owners>
+    <title>joal-desktop</title>
+    <authors>Anthony Raymond</authors>
+    <projectUrl>https://github.com/anthonyraymond/joal-desktop</projectUrl>
+    <projectSourceUrl>https://github.com/anthonyraymond/joal-desktop</projectSourceUrl>
+    <iconUrl>https://raw.githubusercontent.com/anthonyraymond/joal-desktop/v2.0.1/resources/icon.png</iconUrl>
+    <licenseUrl>https://github.com/anthonyraymond/joal-desktop/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>joal-desktop joal torrent</tags>
+    <summary>This is a desktop app wrapper for joal</summary>
+    <description>
+    Disclamer
+    JOAL is not designed to help or encourage you downloading illegal materials ! You must respect the law applicable in your country. I couldn't be held responsible for illegal activities performed by your usage of JOAL.
+
+    JOAL
+    This is a desktop app wrapper for joal (An open source command line RatioMaster ).
+    </description>
+    
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
