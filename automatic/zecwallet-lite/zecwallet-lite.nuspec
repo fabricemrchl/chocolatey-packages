@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>zecwallet-lite</id>
+    <version>1.0.3</version>
+    <packageSourceUrl>https://github.com/LeBleu89/chocolatey-packages</packageSourceUrl>
+    <owners>Le_Bleu</owners>
+    <title>zecwallet-lite (Install)</title>
+    <authors>Aditya Kulkarni</authors>
+    <projectUrl>https://github.com/adityapk00/zecwallet-lite</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/adityapk00/zecwallet-lite/v1.0.3/res/icon.ico</iconUrl>
+    <copyright>Copyright 2018 adityapk</copyright>
+    <licenseUrl>https://github.com/adityapk00/zecwallet-lite/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/adityapk00/zecwallet-lite</projectSourceUrl>
+    <tags>zecwallet-lite zcash wallet</tags>
+    <summary>Zecwallet-Lite is z-Addr first, Sapling compatible lightwallet client for Zcash.</summary>
+    <description>Zecwallet-Lite is z-Addr first, Sapling compatible lightwallet client for Zcash. It has full support for all Zcash features:
+    * Send + Receive fully shielded transactions
+    * Supports transparent addresses and transactions
+    * Full support for incoming and outgoing memos
+    * Fully encrypt your private keys, using viewkeys to sync the blockchain
+    </description>
+    <releaseNotes>https://github.com/adityapk00/zecwallet-lite/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+
+  </files>
+</package>
