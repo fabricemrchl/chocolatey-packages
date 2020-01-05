@@ -35,7 +35,7 @@ environment:
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
-  gist_id:cf6b5da44848b940783683b6883a8bef
+  gist_id: cf6b5da44848b940783683b6883a8bef
 
   # Force test: gist id for test results
   gist_id_test:
