@@ -5,7 +5,7 @@
     <version>2.0.1</version>
     <packageSourceUrl>https://github.com/fabricemrchl/chocolatey-packages</packageSourceUrl>
     <owners>Le_Bleu</owners>
-    <title>joal-desktop</title>
+    <title>Joal Desktop</title>
     <authors>Anthony Raymond</authors>
     <projectUrl>https://github.com/anthonyraymond/joal-desktop</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/anthonyraymond/joal-desktop/v2.0.1/resources/icon.png</iconUrl>

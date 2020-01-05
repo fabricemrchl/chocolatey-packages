@@ -5,7 +5,7 @@
     <version>1.0.3</version>
     <packageSourceUrl>https://github.com/fabricemrchl/chocolatey-packages</packageSourceUrl>
     <owners>Le_Bleu</owners>
-    <title>zecwallet-lite (Install)</title>
+    <title>Zecwallet Lite</title>
     <authors>Aditya Kulkarni</authors>
     <projectUrl>https://www.zecwallet.co/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/adityapk00/zecwallet-lite/v1.0.3/res/icon.ico</iconUrl>
