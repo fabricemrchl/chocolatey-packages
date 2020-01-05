@@ -21,12 +21,7 @@
     * Full support for incoming and outgoing memos
     * Fully encrypt your private keys, using viewkeys to sync the blockchain
     </description>
-    <releaseNotes>This is a maintenance release of Zecwallet Lite that contains several bug fixes:
-    * Fix an issue where some addresses weren't getting updated after a rescan
-    * Fix memo rendering HTML
-    * Fix get "Next address" to return unused addresses first
-    * Fix issue where empty balances were being shown in the balances table.
-    </releaseNotes>
+    <releaseNotes>https://github.com/adityapk00/zecwallet-lite/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
