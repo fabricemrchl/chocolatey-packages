@@ -18,11 +18,11 @@ function global:au_GetLatest {
     $re = '\.msi$'
     $url = $download_page.Links | ? href -match $re | select -first 1 -expand href | % { 'https://github.com' + $_ }
 
-    $version64 = $url.Substring($url.LastIndexOf("-") + 1).Replace(".msi", "").Replace("v","")
+    $version = [regex]::match($url,'\/v?(\d[\.\d*]*)\/').Groups[1].Value
 
     @{
         URL64 = $url
-        Version = $version64
+        Version = $version
     }
 }
 

@@ -13,12 +13,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>joal-desktop joal torrent</tags>
     <summary>This is a desktop app wrapper for joal</summary>
-    <description>
-    Disclamer
-    JOAL is not designed to help or encourage you downloading illegal materials ! You must respect the law applicable in your country. I couldn't be held responsible for illegal activities performed by your usage of JOAL.
+    <description>##Disclamer
+JOAL is not designed to help or encourage you downloading illegal materials ! You must respect the law applicable in your country. I couldn't be held responsible for illegal activities performed by your usage of JOAL.
 
-    JOAL
-    This is a desktop app wrapper for joal (An open source command line RatioMaster ).
+##JOAL
+This is a desktop app wrapper for joal (An open source command line RatioMaster ).
     </description>
     <releaseNotes>https://github.com/anthonyraymond/joal-desktop/releases</releaseNotes>
   </metadata>
