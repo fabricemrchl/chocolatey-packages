@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jxplorer</id>
+    <version>3.3.1.2</version>
+    <packageSourceUrl>https://github.com/fabricemrchl/chocolatey-packages</packageSourceUrl>
+    <owners>Le_Bleu</owners>
+    <title>JXplorer</title>
+    <authors>jxplorer</authors>
+    <projectUrl>http://jxplorer.org/</projectUrl>
+    <iconUrl>https://github.com/fabricemrchl/chocolatey-packages/raw/master/icons/JXplorer_logo.png</iconUrl>
+    <projectSourceUrl>https://sourceforge.net/projects/jxplorer/</projectSourceUrl>
+    <licenseUrl>http://jxplorer.org/licence.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>jxplorer ldap gui java</tags>
+    <summary>A java LDAP client with LDIF support</summary>
+    <description>
+JXplorer is a cross platform LDAP browser and editor. It is a standards compliant general purpose LDAP client that can be used to search, read and edit any standard LDAP directory, or any directory service with an LDAP or DSML interface.
+
+##Features
+JXplorer is a fully functional LDAP client with advanced security integration and support for the more difficult and obscure parts of the LDAP protocol. It has been tested on Windows, Solaris, Linux and OSX, packages are available for HPUX, AIX, BSD and it should run on any java supporting operating system.
+
+* LDAP add/delete/copy/modify
+* tree copy, move and delete
+* Drag-n-drop editing
+* Complex searching
+* UI for search filter construction
+* SSL/TLS support
+* SASL Authentication
+* Full i18n support
+* Hungarian, French and German
+* Traditional and Simplified Chinese
+* Unicode Support
+* UTF8 allowed in DNs
+* Schema support
+* Supports complex DNs
+* Paged results
+* Extensive Help System
+* LDIF import/export
+* Offline LDIF file editing
+* DSML support
+* version 2 LDAP support
+* Configurable HTML templates/forms
+* Themes / Skinning
+* Pluggale Editors
+* Pluggable Security Providers
+* Multi Valued RDNs
+* Binary Attributes
+* Certificate keystore
+* Supports Client keys and Certs
+* GSSAPI support
+* Multiple Browser Windows
+* Data copy between windows
+* An Admin Guide
+    </description>
+    <releaseNotes>https://sourceforge.net/projects/jxplorer/files/</releaseNotes>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
