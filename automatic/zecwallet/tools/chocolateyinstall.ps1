@@ -12,7 +12,7 @@ $packageArgs = @{
 
   softwareName  = 'zecwallet-lite*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
 
-  checksum64    = '9a7d494cd0dc6ae5490feb40614c26af400a64c0211301aa8d772fcd15d7e5c2'
+  checksum64    = 'F8E5BDE71B5CFCCD24DF05E105AC9BE0DF36C19CC8BED47D7E4F9768C1ACA043'
   checksumType64= 'sha256' #default is checksumType
 
   # MSI
