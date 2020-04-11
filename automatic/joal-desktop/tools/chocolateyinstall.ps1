@@ -6,11 +6,11 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url           = 'https://github.com/anthonyraymond/joal-desktop/releases/download/v2.0.1/JoalDesktop-2.0.1-win.exe'
+  url           = 'https://github.com/anthonyraymond/joal-desktop/releases/download/v2.0.2/JoalDesktop-2.0.2-win.exe'
   
   softwareName  = 'joal-desktop*'
 
-  checksum      = '5d50c9cf0f8384445288c1df7b77c5d167409ecd1e2b9d5e11e78ecda84a212d'
+  checksum      = '868ebd83ac35ef79988bc04b23af6cdb1e9915b1ac353e5562084d814209fe52'
   checksumType  = 'sha256'
   silentArgs   = '/S' 
   validExitCodes= @(0)

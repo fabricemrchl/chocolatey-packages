@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>joal-desktop</id>
-    <version>2.0.1</version>
+    <version>2.0.2</version>
     <packageSourceUrl>https://github.com/fabricemrchl/chocolatey-packages</packageSourceUrl>
     <owners>Le_Bleu</owners>
     <title>Joal Desktop</title>
@@ -13,10 +13,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>joal-desktop joal torrent</tags>
     <summary>This is a desktop app wrapper for joal</summary>
-    <description>##Disclamer
+    <description>## Disclamer
 JOAL is not designed to help or encourage you downloading illegal materials ! You must respect the law applicable in your country. I couldn't be held responsible for illegal activities performed by your usage of JOAL.
 
-##JOAL
+## JOAL
 This is a desktop app wrapper for joal (An open source command line RatioMaster ).
     </description>
     <releaseNotes>https://github.com/anthonyraymond/joal-desktop/releases</releaseNotes>
