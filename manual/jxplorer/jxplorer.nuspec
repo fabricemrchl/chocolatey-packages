@@ -17,7 +17,7 @@
     <description>
 JXplorer is a cross platform LDAP browser and editor. It is a standards compliant general purpose LDAP client that can be used to search, read and edit any standard LDAP directory, or any directory service with an LDAP or DSML interface.
 
-##Features
+## Features
 JXplorer is a fully functional LDAP client with advanced security integration and support for the more difficult and obscure parts of the LDAP protocol. It has been tested on Windows, Solaris, Linux and OSX, packages are available for HPUX, AIX, BSD and it should run on any java supporting operating system.
 
 * LDAP add/delete/copy/modify
