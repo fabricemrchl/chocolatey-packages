@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>parsec</id>
+    <version>150.35</version>
+    <packageSourceUrl>https://github.com/fabricemrchl/chocolatey-packages</packageSourceUrl>
+    <owners>Le_Bleu</owners>
+    <title>Parsec</title>
+    <authors>Parsec Cloud Inc.</authors>
+    <projectUrl>https://parsecgaming.com/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/fabricemrchl/chocolatey-packages/master/icons/parsec.png</iconUrl>
+    <licenseUrl>https://parsecgaming.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://support.parsecgaming.com/</docsUrl>
+    <tags>parsec remote desktop streaming gaming</tags>
+    <summary>Parsec is a high performance, low latency 60 FPS remote access product connecting you to your computer from anywhere.</summary>
+    <description>Parsec is a desktop capturing application primarily used for cloud-based gaming through video streaming. Using Parsec, a user can stream video game footage through an Internet connection, allowing one to run a game on PC but play it remotely. Parsec can also be used as low-latency desktop sharing software. A Proprietary Freeware application, Parsec is available on most modern operating systems.</description>
+    <releaseNotes>https://parsecgaming.com/changelog/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+
+  </files>
+</package>
