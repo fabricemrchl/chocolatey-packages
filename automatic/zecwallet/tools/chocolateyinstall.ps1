@@ -8,11 +8,11 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'msi' #only one of these: exe, msi, msu
-  url64bit      = 'https://github.com/ZcashFoundation/zecwallet/releases/download/v0.9.9/Zecwallet.Fullnode.0.9.9.msi'
+  url64bit      = 'https://github.com/ZcashFoundation/zecwallet/releases/download/v0.9.10/Zecwallet.Fullnode.0.9.10.msi'
 
   softwareName  = 'Zecwallet-Fullnode*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
 
-  checksum64    = '027078b14794ca5a125b8fea774d911f3ff96d0d8f6669e3b067b683bc3c20dc'
+  checksum64    = 'b0012315a39f12ef2195164b974ce228d5716395fbabc7083aca235aa164776a'
   checksumType64= 'sha256' #default is checksumType
 
   # MSI
