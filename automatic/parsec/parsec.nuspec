@@ -14,7 +14,9 @@
     <docsUrl>https://support.parsecgaming.com/</docsUrl>
     <tags>parsec remote desktop streaming gaming</tags>
     <summary>Parsec is a high performance, low latency 60 FPS remote access product connecting you to your computer from anywhere.</summary>
-    <description>Parsec is a desktop capturing application primarily used for cloud-based gaming through video streaming. Using Parsec, a user can stream video game footage through an Internet connection, allowing one to run a game on PC but play it remotely. Parsec can also be used as low-latency desktop sharing software. A Proprietary Freeware application, Parsec is available on most modern operating systems.</description>
+    <description>Parsec is a desktop capturing application primarily used for cloud-based gaming through video streaming.
+Using Parsec, a user can stream video game footage through an Internet connection, allowing one to run a game on PC but play it remotely.
+Parsec can also be used as low-latency desktop sharing software. A Proprietary Freeware application, Parsec is available on most modern operating systems.</description>
     <releaseNotes>https://parsecgaming.com/changelog/</releaseNotes>
   </metadata>
   <files>

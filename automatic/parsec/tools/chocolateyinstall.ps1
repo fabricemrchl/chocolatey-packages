@@ -10,11 +10,11 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' #only one of these: exe, msi, msu
   
-  file           = "$toolsDir\parsec-windows32.exe"
-  file64         = "$toolsDir\parsec-windows.exe"
-  checksum       = 'D4D31E15A6A5D6F5A3828855E2E783DB84D8AAE41F38D058A44034DC363264B6'
+  url            = "https://builds.parsecgaming.com/package/parsec-windows32.exe"
+  url64bit       = "https://builds.parsecgaming.com/package/parsec-windows.exe"
+  checksum       = 'd4d31e15a6a5d6f5a3828855e2e783db84d8aae41f38d058a44034dc363264b6'
   checksumType   = 'sha256'
-  checksum64     = 'ECD4F7528D2F737F6BA9632599CF810484B6C9E6C9BC99212CDB7AAF846AB01B'
+  checksum64     = 'ecd4f7528d2f737f6ba9632599cf810484b6c9e6c9bc99212cdb7aaf846ab01b'
   checksumType64 = 'sha256'
 
   # MSI
