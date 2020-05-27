@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>xmeters</id>
+    <version>1.0.103</version>
+    <packageSourceUrl>https://github.com/fabricemrchl/chocolatey-packages</packageSourceUrl>
+    <owners>Le_Bleu</owners>
+    <title>XMeters</title>
+    <authors>Entropy6</authors>
+    <projectUrl>https://entropy6.com/xmeters/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/fabricemrchl/chocolatey-packages/1d43f2630cde0d50822206993cf9ed06e80358c4/icons/xmeters_logo.png</iconUrl>
+    <copyright>Copyright (c) Entropy6. All rights reserved.</copyright>
+    <licenseUrl>https://entropy6.com/xmeters/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://entropy6.com/xmeters/help/</docsUrl>
+    <tags>windows task manager stats</tags>
+    <summary>Taskbar System Stats for Windows. Keep tabs on your vital system information.</summary>
+    <description>Taskbar System Stats for Windows. Keep tabs on your vital system information.
+### Features
+* Real-time System Monitoring : Display a live view of your most important system information at all times.
+* Completely Customizable : Change the look of XMeters to match your workspace.
+* Designed for Performance : Change the look of XMeters to match your workspace.
+
+XMeters supports Windows 7, 8, and 10.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+
+  </files>
+</package>
