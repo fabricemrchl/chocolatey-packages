@@ -8,7 +8,7 @@
     <title>Zecwallet Lite</title>
     <authors>Aditya Kulkarni</authors>
     <projectUrl>https://www.zecwallet.co/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/adityapk00/zecwallet-lite/v1.0.3/res/icon.ico</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/adityapk00/zecwallet-lite/v1.1.13/resources/icon.png</iconUrl>
     <copyright>Copyright 2018 adityapk</copyright>
     <licenseUrl>https://github.com/adityapk00/zecwallet-lite/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

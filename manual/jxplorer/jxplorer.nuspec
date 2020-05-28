@@ -8,7 +8,7 @@
     <title>JXplorer</title>
     <authors>jxplorer</authors>
     <projectUrl>http://jxplorer.org/</projectUrl>
-    <iconUrl>https://github.com/fabricemrchl/chocolatey-packages/raw/master/icons/JXplorer_logo.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/fabricemrchl/chocolatey-packages/4d5fbadb2c826a3851bb8ed5e41a1eb5fa9c889b/icons/JXplorer_logo.png</iconUrl>
     <projectSourceUrl>https://sourceforge.net/projects/jxplorer/</projectSourceUrl>
     <licenseUrl>http://jxplorer.org/licence.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

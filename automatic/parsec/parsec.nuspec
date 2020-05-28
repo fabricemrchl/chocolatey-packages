@@ -8,7 +8,7 @@
     <title>Parsec</title>
     <authors>Parsec Cloud Inc.</authors>
     <projectUrl>https://parsecgaming.com/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/fabricemrchl/chocolatey-packages/master/icons/parsec.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/fabricemrchl/chocolatey-packages/6e3f9556bf09d31d6ca48e57048a81f3c0604dbc/icons/parsec.png</iconUrl>
     <licenseUrl>https://parsecgaming.com/terms/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://support.parsecgaming.com/</docsUrl>

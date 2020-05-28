@@ -8,7 +8,7 @@
     <title>Zecwallet FullNode</title>
     <authors>Aditya Kulkarni</authors>
     <projectUrl>https://www.zecwallet.co/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/ZcashFoundation/zecwallet/v0.9.1/resources/icon.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/ZcashFoundation/zecwallet/v0.9.12/resources/icon.png</iconUrl>
     <licenseUrl>https://github.com/ZcashFoundation/zecwallet/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/ZcashFoundation/zecwallet</projectSourceUrl>
