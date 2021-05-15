@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>fpsmonitor</id>
+    <version>5305.00</version>
+    <packageSourceUrl>https://github.com/fabricemrchl/chocolatey-packages</packageSourceUrl>
+    <owners>Le_Bleu</owners>
+    <title>FPS Monitor</title>
+    <authors>Eduard Kozadaev</authors>
+    <projectUrl>https://fpsmon.com/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/fabricemrchl/chocolatey-packages/d83ba118067b75ccd960e3c0095c64c4b0e71dfe/icons/fpsmon_logo.png</iconUrl>
+    <licenseUrl>https://store.steampowered.com//eula/966610_eula_0</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>fps monitor sensors framerate gaming</tags>
+    <summary>FPS Monitor tracks your PC's hardware state and displays this information as an overlay in-game or over desktop. Does not require configuration, it works immediately after installation.</summary>
+<description>
+FPS Monitor tracks your PC's hardware state and displays this information as an overlay in-game. You no longer need to switch to desktop or attach a second display to control your hardware status. FPS Monitor will show all valuable information in-game.
+
+FPS Monitor is the very first special software tool that not only shows an FPS counter similar to good old Fraps™, but can also display a lot of other parameters. This gives a clear overview of how your hardware is performing while you're gaming.
+
+FPS Monitor does not require configuration and displays all the most useful information immediately after installation, as well as has a rich functionality for those who prefer to configure everything as he likes.
+</description>
+
+    <releaseNotes>https://store.steampowered.com/news/app/966610</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+
+  </files>
+</package>
