@@ -21,7 +21,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: fabricemrchl/chocolatey-packages
   github_api_key:
-    secure: 6+S9BAQ4qoreAdQVw8q1ZiMPtJ+qeSWvstqb0ZBpY85VkqPSsRB4sscJ//gf6gFl #https://ci.appveyor.com/tools/encrypt
+    secure: cyYgMpeyvpwh1vUkN5FEuyPrg+AWgMBN9Ewwf49/Qrrkax4ZHKD92TBpJHyNWRUv #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
