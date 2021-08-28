@@ -14,17 +14,17 @@
     <docsUrl>https://support.parsecgaming.com/</docsUrl>
     <tags>parsec remote desktop streaming gaming</tags>
     <summary>Parsec is a high performance, low latency 60 FPS remote access product connecting you to your computer from anywhere.</summary>
-    <description>Parsec is a desktop capturing application primarily used for cloud-based gaming through video streaming.
+    <description><![CDATA[Parsec is a desktop capturing application primarily used for cloud-based gaming through video streaming.
 Using Parsec, a user can stream video game footage through an Internet connection, allowing one to run a game on PC but play it remotely.
-Parsec can also be used as low-latency desktop sharing software. A Proprietary Freeware application, Parsec is available on most modern operating systems.</description>
+Parsec can also be used as low-latency desktop sharing software. A Proprietary Freeware application, Parsec is available on most modern operating systems.
 
 ## Package Parameters
 - `/Shared` Use the same Parsec account fo all users on this computer and allow access on th Windows login scren. Use this for Team Computers.
-- `/CleanUser` By default parsec is installed with /nocleanuser to keep user settings. You can force clean user settings with parameter /CleanUser
+- `/CleanUser` By default parsec is installed with /nocleanuser to keep user settings. You can force clean user settings with paramter /CleanUser
 
 ### Examples
 `choco install parsec --params "/Shared"`
-
+]]></description>
     <releaseNotes>https://parsecgaming.com/changelog/</releaseNotes>
   </metadata>
   <files>
