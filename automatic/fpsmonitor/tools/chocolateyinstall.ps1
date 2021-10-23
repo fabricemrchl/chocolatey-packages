@@ -10,8 +10,8 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' #only one of these: exe, msi, msu
   
-  url            = 'https://www.fpsmon.com/bin/fpsmon-5305.exe'
-  checksum       = '4da405184fcf78e2a0c1f2ea50fc9d24b975696036f80fbd390b723ba3528b11'
+  url            = 'https://www.fpsmon.com/bin/fpsmon-5400.exe'
+  checksum       = '4bfd12ed12c94e6d4c8fb816fb99023b18eafe785d84dd04f56a104f85c46d6a'
   checksumType   = 'sha256'
 
   # MSI
