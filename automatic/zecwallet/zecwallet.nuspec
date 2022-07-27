@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>zecwallet</id>
-    <version>1.8.1</version>
+    <version>1.8.2</version>
     <packageSourceUrl>https://github.com/fabricemrchl/chocolatey-packages</packageSourceUrl>
     <owners>Le_Bleu</owners>
     <title>Zecwallet FullNode</title>
