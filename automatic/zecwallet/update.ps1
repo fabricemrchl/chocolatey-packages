@@ -13,15 +13,17 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing
-
-    $re = '\.msi$'
-    $url = $download_page.Links | ? href -match $re | select -first 1 -expand href | % { 'https://github.com' + $_ }
-
-    $version = [regex]::match($url,'\/v?(\d[\.\d*]*)\/').Groups[1].Value
+    $jsonAnswer = Invoke-RestMethod `
+        -Uri "https://api.github.com/repos/ZcashFoundation/zecwallet/releases/latest" `
+        -Headers $headers `
+        -UseBasicParsing
+    $version = $jsonAnswer.tag_name -Replace '[^0-9.]' 
+    $jsonAnswer.assets | Where { $_.name -Match "\.msi$" } | ForEach-Object {
+        $url64 = $_.browser_download_url
+    }
 
     @{
-        URL64 = $url
+        URL64 = $url64
         Version = $version
     }
 }

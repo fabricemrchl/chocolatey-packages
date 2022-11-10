@@ -13,15 +13,18 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing
-
-    $re = '\.exe$'
-    $url = $download_page.Links | ? href -match $re | select -first 1 -expand href | % { 'https://github.com' + $_ }
-
-    $version = [regex]::match($url,'\/v?(\d[\.\d*]*(\-beta)?)\/').Groups[1].Value
+    $jsonAnswer = Invoke-RestMethod `
+        -Uri "https://api.github.com/repos/FreeTubeApp/FreeTube/releases" `
+        -Headers $headers `
+        -UseBasicParsing
+    $version = $jsonAnswer[0].tag_name -Replace '[^0-9.\-beta]'
+    $jsonAnswer[0].assets | Where { $_.name -Match "x64.exe$" } | ForEach-Object {
+        $url64 = $_.browser_download_url
+    }
+    
 
     @{
-        URL64 = $url
+        URL64 = $url64
         Version = $version
     }
 }
