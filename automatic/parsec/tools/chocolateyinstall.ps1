@@ -20,9 +20,9 @@ $packageArgs = @{
   
   url            = "https://builds.parsecgaming.com/package/parsec-windows32.exe"
   url64bit       = "https://builds.parsecgaming.com/package/parsec-windows.exe"
-  checksum       = 'f61c70d979155e4a7cb30000c91fdb897030777436f5f8a813896b1e1147b24e'
+  checksum       = '9bd8b6393c6806bee6c0fc389f5dd9032dd3327d3f54af32520081c45d365725'
   checksumType   = 'sha256'
-  checksum64     = '26ad62d32de464eab6e08a3aa5957523381209854a98144409a29348b88b74be'
+  checksum64     = 'e1346b9cc2ed444075655c5dfc484f2b2706ed509ce3c1f732383529ea763334'
   checksumType64 = 'sha256'
 
   # MSI
