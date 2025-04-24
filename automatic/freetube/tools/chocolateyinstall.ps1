@@ -8,11 +8,11 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' #only one of these: exe, msi, msu
-  url64bit      = 'https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.3-beta/freetube-0.23.3-setup-x64.exe'
+  url64bit      = 'https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.4-beta/freetube-0.23.4-setup-x64.exe'
 
   softwareName  = 'FreeTube*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
 
-  checksum64    = 'df2ddf8e92b19e5cae74b0a45e4fe8761f0264eb8ebdf530abf57f752213ba1f'
+  checksum64    = '684d6452f2a65882067a9afb4e6cd69247bbf0b92ea635ae9039fc9eb712b3fe'
   checksumType64= 'sha256' #default is checksumType
 
   # MSI
